@@ -467,6 +467,7 @@ Python >= 3.9. All dependencies are listed in [`requirements.txt`](requirements.
 3. **Download Kaggle Datasets**
    ```
    Download transactions.csv, transactions_v2.csv, and user_logs.csv
+   ```
    
 5. **Run data preparation** (the processed parquet/csv files are not included in this repo — they're too large for GitHub — so this step must be run to generate them)
    ```

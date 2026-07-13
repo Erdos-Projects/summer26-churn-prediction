@@ -465,19 +465,21 @@ Python >= 3.9. All dependencies are listed in [`requirements.txt`](requirements.
    pip install -r requirements.txt
    ```
 3. **Download Kaggle Datasets**
+   ```
+   Download transactions.csv, transactions_v2.csv, and user_logs.csv
    
-4. **Run data preparation** (the processed parquet/csv files are not included in this repo — they're too large for GitHub — so this step must be run to generate them)
+5. **Run data preparation** (the processed parquet/csv files are not included in this repo — they're too large for GitHub — so this step must be run to generate them)
    ```
    Open and run all cells in 1_transaction_data_generation.ipynb, 2_user_log_data_generation, and 4_data_prep.ipynb
    ```
 
-5. **Run the modeling pipeline**
+6. **Run the modeling pipeline**
    ```
    Open 5_modeling.ipynb and run all cells
    ```
    This trains all five models under the time-based protocol, tunes the winner on validation, evaluates once on test, and saves models + SHAP plots to `model_results/`.
 
-6. **Generate explanation reports** (optional)
+7. **Generate explanation reports** (optional)
    ```
    Open 7_LLM_churn_explanation.ipynb and run all cells
    ```

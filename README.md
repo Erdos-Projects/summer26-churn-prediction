@@ -464,7 +464,7 @@ Python >= 3.9. All dependencies are listed in [`requirements.txt`](requirements.
    ```bash
    pip install -r requirements.txt
    ```
-3. Download Kaggle Datasets
+3. **Download Kaggle Datasets**
    
 4. **Run data preparation** (the processed parquet/csv files are not included in this repo — they're too large for GitHub — so this step must be run to generate them)
    ```

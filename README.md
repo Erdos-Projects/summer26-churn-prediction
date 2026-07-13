@@ -3,7 +3,7 @@
 
 **Authors:** Yingying Yang · Darryl Jent · Linxin Liu · Kaiwen Jin · Albert Lu
 
-📄 [Executive Summary](KKBox%20Churn%20Prediction%20Executive%20Summary.pdf)
+📄 [Executive Summary](KKBox%20Churn%20Prediction%20Executive%20summary.pdf)
 
 A time-agnostic validation framework identifying high-risk users with XGBoost, achieving strong predictive performance while maintaining model interpretability.
 

@@ -5,7 +5,7 @@
 
 📄 [Executive Summary](KKBox%20Churn%20Prediction%20Executive%20summary.pdf)
 
-A time-agnostic validation framework identifying high-risk users with XGBoost, achieving strong predictive performance while maintaining model interpretability.
+An out-of-time validation framework that identifies high-risk users with XGBoost, achieving strong predictive performance while maintaining interpretability.
 
 
 ## Table of Contents
